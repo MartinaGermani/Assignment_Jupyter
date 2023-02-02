@@ -21,3 +21,11 @@ Through the use of this user interface, the user is able to switch between the f
 1. the first one is the 'Automatic Guide', where the user will set a target position and the robot will try to get the goal. Moreover, in this modality there is also the possibility of canceling the goal via the proper button
 2. the second one is the 'Manual Guide', where the user can manually guide the robot in the desired position through the use of the keyboard. In particular, in this case it is expected a simple pad which allows to control the robot in space by simply clicking on the desired button
 3. the third one is the 'Controlled Guide', which is structured as the second modality, but there are also some controls in order to avoid collisions.
+
+Moreover, during the simulation, there is also the possibility to graphically visualize, in real time, what the robot perceive while it is moving around the environment. In particular, the plots I inserted are:
+1. a plot which shows the position of the robot in the space through the use of red dots by simply subscribing to the odometry topic of the robot
+2. a plot which shows the values retrieved by the laser scan arrays of the robot, by simply subscribing to the LaserScan topic
+3. a plot which shows the laser scan arrays of the robot but on a polar graph representation. 
+
+
+
