@@ -6,7 +6,7 @@ Starting from the third assignment of the RT1 course, I created a jupyter notebo
 - let the user manually drive the robot using the keyboard but with some controls in order to avoid collision.
 
 ## How to run the code?
-The main code is called 'UI_JUY', where you can find the user interface with some buttons for handling the three different guide modalities, followed by different plots. This interface requires the following packages:
+The main code is called 'JUPY_UI', where you can find the user interface with some buttons for handling the three different guide modalities, followed by different plots. This interface requires the following packages:
 - 'final_assignment'
 - 'slam_gmapping'
 
@@ -14,7 +14,7 @@ In order to visualize the guide simulation during the execution, you need to run
 - roslaunch final_assignment simulation_gmapping.launch
 - roslaunch final_assignment move_base.launch
 
-At this point you are ready for starting the guide, by simpling open jupyter notebook and run the 'UI_JUY'.
+At this point you are ready for starting the guide, by simpling open jupyter notebook and run the 'JUPY_UI'.
 
 ## Description of the code
 Through the use of this user interface, the user is able to switch between the following three guide modalities:
