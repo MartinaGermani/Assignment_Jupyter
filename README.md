@@ -25,7 +25,8 @@ Through the use of this user interface, the user is able to switch between the f
 Moreover, during the simulation, there is also the possibility to graphically visualize, in real time, what the robot perceive while it is moving around the environment. In particular, the plots I inserted are:
 1. a plot which shows the position of the robot in the space through the use of red dots by simply subscribing to the odometry topic of the robot
 2. a plot which shows the values retrieved by the laser scan arrays of the robot, by simply subscribing to the LaserScan topic
-3. a plot which shows the laser scan arrays of the robot but on a polar graph representation. 
+3. a plot which shows the laser scan arrays of the robot but on a polar graph representation
+4. plot of the reached and unreached goal.
 
 
 
